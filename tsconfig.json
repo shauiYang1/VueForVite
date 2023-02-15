@@ -8,7 +8,9 @@
     },
     "types": ["element-plus/global"]
   },
-
+  "exclude": [
+    "node_modules",
+  ],
   "references": [
     {
       "path": "./tsconfig.config.json"
