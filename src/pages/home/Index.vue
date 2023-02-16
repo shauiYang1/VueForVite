@@ -6,9 +6,7 @@
 </template>
 
 <script setup lang="ts">
-
-// import Login from '@/components/Login.vue'
-
+import {ref} from 'vue';
 import { useUserStore } from '@/stores'
 const store = useUserStore()
 </script>
